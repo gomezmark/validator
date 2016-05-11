@@ -1,0 +1,59 @@
+
+/*
+ * validate.js 2.0.1
+ * Copyright (c) 2016 Mark Gomez
+ * validate.js is open source
+ */
+ 
+.mgvalidator {
+	position: relative;
+	width: 100%;
+}
+.mgvalidator-text {
+    display: block;
+    color: #dc4a3d;
+    margin-top: 7px;
+}
+.mg-success {
+	border: 1px solid #99cc66;
+	-o-transition:.3s;
+    -ms-transition:.3s;
+    -moz-transition:.3s;
+    -webkit-transition:.3s;
+    transition:.3s;
+}
+
+.mg-error {
+	border: 1px solid #dc4a3d;
+	-o-transition:.3s;
+    -ms-transition:.3s;
+    -moz-transition:.3s;
+    -webkit-transition:.3s;
+    transition:.3s;
+}
+.mg-override-border {
+	border: none !important;
+}
+.fa-success {
+	position: absolute;
+    color: #99cc66;
+    top: 50%;
+    right: 0;
+    vertical-align: middle;
+    padding-top: 50;
+    transform: translateY(-50%);
+    margin-top: calc(100% - height);
+    width: 20px;
+}
+.fa-error {
+	position: absolute;
+    color: #dc4a3d;
+    top: 50%;
+    right: 0;
+    vertical-align: middle;
+    padding-top: 50;
+    transform: translateY(-50%);
+    margin-top: calc(100% - height);
+    width: 20px;
+}
+
